@@ -1,0 +1,17 @@
+.content {
+    margin: 30px auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 1.5px 1.5px 1.5px;
+} 
+
+.my-3-btn {
+    width: 100%;
+}
+
+@media(max-width: 450px) {
+    .content {
+        width: 75%;
+    }
+}

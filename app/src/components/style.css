@@ -1,0 +1,82 @@
+.link-css {
+    color: black;
+    text-decoration: none;
+}
+
+.link-css:hover {
+    text-decoration: underline;
+    font-size: bold;
+}
+
+.my-image {
+    width: 350px;
+    height: 350px;
+}
+
+.my-image-2 {
+    width: 400px;
+    height: 350px;
+}
+
+.footer {
+    margin-top: 12%;
+    margin-bottom: 0%;
+    padding: 30px;
+}
+
+.turn-h5 {
+    text-decoration: none;
+    color: white
+}
+
+.change {
+    padding: 2px;
+}
+
+.my-2-btn {
+    width: 200px;
+}
+
+.my-3-btn {
+    width: 100%;
+}
+
+.my-4-btn {
+    width: 100%;
+}
+
+.my-btn {
+    width: 40px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #212529;
+    color: white;
+}
+
+.turn-h5:hover {
+    text-decoration: underline;
+}
+
+.link-media {
+    color: white;
+    text-decoration: none;
+}
+
+.link-media:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 30px auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 1.5px 1.5px 1.5px;
+} 
+
+@media(max-width: 450px) {
+    .content {
+        width: 75%;
+    }
+}
